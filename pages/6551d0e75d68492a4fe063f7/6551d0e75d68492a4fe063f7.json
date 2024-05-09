@@ -1,0 +1,387 @@
+{
+  "applicationId": "6551d0e75d68492a4fe063f4",
+  "unpublishedPage": {
+    "pageType": "PAGE",
+    "order": 0,
+    "name": "页面1",
+    "slug": "1",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 355,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 850,
+          "containerStyle": "none",
+          "snapRows": 125,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 56,
+          "minHeight": 850,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "widgetName": "Button1",
+              "buttonColor": "#FFA474",
+              "displayName": "按钮",
+              "iconSVG": "/static/media/icon.a05f8b0744ff4f411e54f8f329f35482.svg",
+              "topRow": 19,
+              "bottomRow": 23,
+              "parentRowSpace": 10,
+              "type": "BUTTON_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 6.1875,
+              "leftColumn": 25,
+              "buttonStatus": "default",
+              "text": "确定",
+              "isDisabled": false,
+              "resizeMode": "rail",
+              "key": "f4xocz2625",
+              "rightColumn": 48,
+              "iconSite": "right",
+              "isDefaultClickDisabled": true,
+              "widgetId": "tfw7x9gzzw",
+              "isVisible": true,
+              "recaptchaType": "V3",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "buttonVariant": "primary",
+              "placement": "CENTER"
+            },
+            {
+              "widgetName": "Button2",
+              "buttonColor": "#FFA474",
+              "displayName": "按钮",
+              "iconSVG": "/static/media/icon.a05f8b0744ff4f411e54f8f329f35482.svg",
+              "topRow": 14,
+              "bottomRow": 18,
+              "parentRowSpace": 10,
+              "type": "BUTTON_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 6.1875,
+              "leftColumn": 29,
+              "buttonStatus": "default",
+              "text": "确定",
+              "isDisabled": false,
+              "resizeMode": "rail",
+              "key": "f4xocz2625",
+              "rightColumn": 36,
+              "iconSite": "right",
+              "isDefaultClickDisabled": true,
+              "widgetId": "cl61zvc59d",
+              "isVisible": true,
+              "recaptchaType": "V3",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "buttonVariant": "primary",
+              "placement": "CENTER"
+            },
+            {
+              "isVisibleDownload": true,
+              "defaultValue": "inline",
+              "iconSVG": "/static/media/icon.50f619038b265a37c5d954509dfd445c.svg",
+              "topRow": 24,
+              "pageSize": 10,
+              "isSortable": true,
+              "labelWidth": 120,
+              "type": "TABLE_WIDGETV2",
+              "animateLoading": true,
+              "dynamicBindingPathList": [
+                {
+                  "key": "tableData"
+                },
+                {
+                  "key": "primaryColumns.ID.computedValue"
+                },
+                {
+                  "key": "primaryColumns.TEST_DATE.computedValue"
+                },
+                {
+                  "key": "primaryColumns.TEST_TIME.computedValue"
+                },
+                {
+                  "key": "primaryColumns.TEST_TIMESTAMP.computedValue"
+                },
+                {
+                  "key": "totalRecordsCount"
+                }
+              ],
+              "leftColumn": 0,
+              "delimiter": ",",
+              "isVisibleFilters": true,
+              "isVisible": true,
+              "RowNum": 3,
+              "enableClientSideSearch": true,
+              "version": 3,
+              "totalRecordsCount": "{{Query2.total}}",
+              "isLoading": false,
+              "columnSizeMap": {},
+              "cellPadding": {
+                "left": 16,
+                "top": 9,
+                "right": 16,
+                "bottom": 9
+              },
+              "widgetName": "Table1",
+              "defaultPageSize": 0,
+              "columnOrder": [
+                {
+                  "label": "ID",
+                  "id": "ID",
+                  "isVisible": true,
+                  "isDerived": false,
+                  "index": 0,
+                  "rawIndex": 0,
+                  "isDuplicateLabel": false,
+                  "filterAble": false,
+                  "children": []
+                },
+                {
+                  "label": "TEST_DATE",
+                  "id": "TEST_DATE",
+                  "isVisible": true,
+                  "isDerived": false,
+                  "index": 1,
+                  "rawIndex": 1,
+                  "isDuplicateLabel": false,
+                  "filterAble": false,
+                  "children": []
+                },
+                {
+                  "label": "TEST_TIME",
+                  "id": "TEST_TIME",
+                  "isVisible": true,
+                  "isDerived": false,
+                  "index": 2,
+                  "rawIndex": 2,
+                  "isDuplicateLabel": false,
+                  "filterAble": false,
+                  "children": []
+                },
+                {
+                  "label": "TEST_TIMESTAMP",
+                  "id": "TEST_TIMESTAMP",
+                  "isVisible": true,
+                  "isDerived": false,
+                  "index": 3,
+                  "rawIndex": 3,
+                  "isDuplicateLabel": false,
+                  "filterAble": false,
+                  "children": []
+                }
+              ],
+              "enableActionButtons": false,
+              "displayName": "简易表格",
+              "bindQuery": "{{Query2.run()}}",
+              "bottomRow": 67,
+              "parentRowSpace": 10,
+              "actionButtons": {},
+              "defaultSelectedRow": "0",
+              "hideCard": false,
+              "dynamicTriggerPathList": [],
+              "primaryColumns": {
+                "ID": {
+                  "index": 0,
+                  "width": 150,
+                  "id": "ID",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "PARAGRAPH",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "ID",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow['ID']))}}"
+                },
+                "TEST_DATE": {
+                  "index": 1,
+                  "width": 150,
+                  "id": "TEST_DATE",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "PARAGRAPH",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "TEST_DATE",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow['TEST_DATE']))}}"
+                },
+                "TEST_TIME": {
+                  "index": 2,
+                  "width": 150,
+                  "id": "TEST_TIME",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "PARAGRAPH",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "TEST_TIME",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow['TEST_TIME']))}}"
+                },
+                "TEST_TIMESTAMP": {
+                  "index": 3,
+                  "width": 150,
+                  "id": "TEST_TIMESTAMP",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "PARAGRAPH",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "TEST_TIMESTAMP",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow['TEST_TIMESTAMP']))}}"
+                }
+              },
+              "maxRow": 1,
+              "key": "5x7txmiyz7",
+              "queryInfo": "65acb6aab568d75d4cca03c0",
+              "derivedColumns": {},
+              "rightColumn": 64,
+              "textSize": "PARAGRAPH",
+              "isSortTree": true,
+              "widgetId": "i68uttmvpv",
+              "tableData": "{{Query2.data}}",
+              "label": "Data",
+              "searchKey": "",
+              "showBorder": true,
+              "parentId": "0",
+              "serverSidePaginationEnabled": true,
+              "renderMode": "CANVAS",
+              "horizontalAlignment": "LEFT",
+              "isVisibleSearch": true,
+              "isVisiblePagination": true,
+              "verticalAlignment": "CENTER"
+            }
+          ]
+        },
+        "layoutOnLoadActions": [],
+        "widgetNames": [
+          "Button1",
+          "Button2",
+          "MainContainer",
+          "Table1"
+        ],
+        "allOnPageLoadActionNames": [],
+        "allOnPageLoadActionEdges": [
+          {
+            "source": "currentRow",
+            "target": "Table1.primaryColumns.TEST_TIME.computedValue"
+          },
+          {
+            "source": "Table1.sanitizedTableData.map",
+            "target": "Table1.primaryColumns.TEST_DATE.computedValue"
+          },
+          {
+            "source": "TEST_TIME",
+            "target": "Table1.primaryColumns.TEST_TIME.computedValue"
+          },
+          {
+            "source": "currentRow",
+            "target": "Table1.primaryColumns.ID.computedValue"
+          },
+          {
+            "source": "currentRow",
+            "target": "Table1.primaryColumns.TEST_DATE.computedValue"
+          },
+          {
+            "source": "currentRow",
+            "target": "Table1.primaryColumns.TEST_TIMESTAMP.computedValue"
+          },
+          {
+            "source": "Table1.sanitizedTableData.map",
+            "target": "Table1.primaryColumns.TEST_TIMESTAMP.computedValue"
+          },
+          {
+            "source": "TEST_TIMESTAMP",
+            "target": "Table1.primaryColumns.TEST_TIMESTAMP.computedValue"
+          },
+          {
+            "source": "TEST_DATE",
+            "target": "Table1.primaryColumns.TEST_DATE.computedValue"
+          },
+          {
+            "source": "ID",
+            "target": "Table1.primaryColumns.ID.computedValue"
+          },
+          {
+            "source": "Table1.sanitizedTableData.map",
+            "target": "Table1.primaryColumns.TEST_TIME.computedValue"
+          },
+          {
+            "source": "Table1.sanitizedTableData.map",
+            "target": "Table1.primaryColumns.ID.computedValue"
+          }
+        ],
+        "actionsUsedInDynamicBindings": [
+          "Query2"
+        ],
+        "validOnPageLoadActions": true,
+        "id": "6551d0e75d68492a4fe063f5",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "parentId": "0",
+    "children": []
+  },
+  "id": "6551d0e75d68492a4fe063f7",
+  "createdAt": "2023-11-13T07:31:51Z",
+  "deleted": false,
+  "policies": [
+    {
+      "permission": "manage:pages",
+      "users": [
+        "15207108135"
+      ],
+      "groups": []
+    },
+    {
+      "permission": "read:pages",
+      "users": [
+        "15207108135"
+      ],
+      "groups": []
+    }
+  ],
+  "userPermissions": [],
+  "defaultResources": {
+    "applicationId": "6551d0e75d68492a4fe063f4",
+    "pageId": "6551d0e75d68492a4fe063f7",
+    "branchName": "master"
+  },
+  "gitSyncId": "6551d0e75d68492a4fe063f4_6551d0e75d68492a4fe063f6"
+}
